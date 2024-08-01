@@ -10,7 +10,7 @@ import insta from '../../assets/instagram.svg'
 const About = () => {
   return (
     <div className="about-container">
-      <h1>About Me</h1>
+      <h1 className='text-4xl font-semibold '>About Me</h1>
       <div className="intro">
         <img src={assets} alt="" className='about-image'/>
       <p>Hello! I'm Suraj, a passionate web developer specializing in React.js. With a keen interest in cryptocurrencies, I've created a comprehensive and user-friendly cryptocurrency website. This platform offers a seamless experience for users to explore the world of digital currencies.</p>
@@ -21,7 +21,7 @@ const About = () => {
         <a href="https://x.com/soorajkuma65408"><img src={twitter} alt="" /><br />Twitter</a>
       </div>
       <section className="details-section">
-        <h2>What I Do</h2>
+        <h2 className='text-4xl font-semibold'>What I Do</h2>
         <p>I've developed a comprehensive cryptocurrency website that provides users with up-to-date information and insights into the digital currency market. Here's a glimpse of what my project offers:</p>
         <ul>
           <li><strong>Home Page:</strong> A broad overview of various cryptocurrencies, allowing users to explore and learn about different coins. By clicking on any coin, users can access detailed data and graphical representations of its performance.</li>
@@ -36,6 +36,7 @@ const About = () => {
         <p>My goal is to create platforms that are not only functional and informative but also engaging and user-friendly. I believe in the power of technology to bring transparency and accessibility to complex markets like cryptocurrency.</p>
         <p>If you're looking for a dedicated and innovative web developer to bring your ideas to life, I'd love to connect! Thank you for visiting my site, and I look forward to the possibility of working together.</p>
       </section>
+      
     </div>
   );
 };

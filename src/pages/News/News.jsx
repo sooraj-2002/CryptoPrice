@@ -53,8 +53,8 @@ const News = () => {
               <h2 className="news-title">{article.title}</h2>
               <p className="news-text">
                 {showFullDescription[index]
-                  ? article.description
-                  : `${article.description.slice(0, 500)}...`}
+                  ? article.description || 'No description available.'
+                  : `${article.description ? article.description.slice(0, 300) : 'No description available.'}...`}
               </p>
               <div className="btnshow">
                 <button className='btnshowmore' onClick={() => toggleDescription(index)}>

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sooraj-2002.github.io/CryptoPrice/",
+  "homepage": "https://sooraj-2002.github.io",
   "name": "cryptoplace",
   "version": "0.1.0",
   "private": true,
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.4.7"
   }
 }

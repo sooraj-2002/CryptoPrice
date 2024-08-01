@@ -34,7 +34,7 @@ const Home = () => {
             <h1>Largest <br /> Crypto Marketplace</h1>
             <p>Welcome to the world's largest cryptocurrency marketplace. Sign up to explore more about cryptos.</p>
             <form onSubmit={searchHandler}>
-                <input type="text" placeholder='Search Crypto...' list='coinlist' value={input} onChange={inputHandler} required  />
+                <input type="text" className='text-slate-950' placeholder='Search Crypto...' list='coinlist' value={input} onChange={inputHandler} required  />
 
                 <datalist id='coinlist'>
                     {allCoin.map((item, index) => (<option key={index} value={item.name}/>))}
